@@ -39,3 +39,26 @@ The dataset is **synthetically generated** using Python's `Faker` library to sim
 ---
 
 ## 📂 Folder Structure
+drug-trials-classification/
+│
+├── dataset/
+│ └── drug_trials_dataset.csv
+│
+├── models/
+│ ├── drug_side_effects_model.pkl
+│ ├── le_gender.pkl
+│ ├── le_race.pkl
+│ └── le_side_effects.pkl
+│
+├── notebook/
+│ └── Drug_Trials_Classification_Project.ipynb
+│
+└── README.md
+
+---
+
+## 🚀 How to Run
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/iamstarlightt-dot/drug-trials-classification.git
+   cd drug-trials-classification
